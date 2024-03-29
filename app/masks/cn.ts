@@ -34,14 +34,14 @@ export const CN_MASKS: BuiltinMask[] = [
     context: [
       {
         id: "tWYeWqPSGZkxWC31Zk5vU",
-        role: "user",
+        role: "system",
         content:
             "我希望你担任高级前端开发人员。我将描述您将使用以下工具编写项目代码的项目详细信息：CentOS7、Java8、SpringBoot、SpringCloud、MySQL、Maven、Docker、Kubernetes、fastjson、mapstruct、JSP、VUE、Android、uni-app",
         date: "",
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 3000,
       presence_penalty: 0,
@@ -114,7 +114,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -140,7 +140,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -166,7 +166,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -192,7 +192,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -218,7 +218,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -244,7 +244,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -270,7 +270,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -296,7 +296,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -328,7 +328,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 0.5,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -354,7 +354,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -387,7 +387,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -420,7 +420,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -478,7 +478,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo-16k-0613",
+      model: "gpt-3.5-turbo",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
