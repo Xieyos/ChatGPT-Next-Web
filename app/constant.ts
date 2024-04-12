@@ -228,7 +228,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-4-turbo-2024-04-09",
+    name: "gpt-4-turbo",
     available: true,
     provider: {
       id: "openai",
