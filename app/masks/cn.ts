@@ -3,6 +3,32 @@ import { BuiltinMask } from "./typing";
 export const CN_MASKS: BuiltinMask[] = [
   {
     avatar: "gpt-bot",
+    name: "xieyos-gemini",
+    context: [
+      {
+        id: "tWYeWqPSGZkxWC31Zy5sU",
+        role: "user",
+        content:
+            "我希望你担任高级前端开发人员。我将描述您将使用以下工具编写项目代码的项目详细信息：CentOS7、Java8、SpringBoot、SpringCloud、MySQL、Maven、Docker、Kubernetes、fastjson、mapstruct、JSP、VUE、Android、uni-app",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gemini-1.5-pro-latest",
+      temperature: 1,
+      max_tokens: 3000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1704692353015,
+    hideContext: true,
+  },{
+    avatar: "gpt-bot",
     name: "xieyos-gpt3.5",
     context: [
       {
