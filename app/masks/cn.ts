@@ -14,7 +14,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "llama3",
+      model: "llama3-chinese-8B-Q8",
       temperature: 1,
       max_tokens: 3000,
       presence_penalty: 0,
